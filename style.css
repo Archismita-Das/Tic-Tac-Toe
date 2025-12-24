@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #07b9d9;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vmin;
+    padding: 5vmin;
+    color: #fffcfc;
+
+     background:linear-gradient(to right, #ff7e5f, #dcbba2);
+    background-attachment: fixed;
+    
+} 
+.container{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    display: flex;
+}
+.game{
+    height : 60vmin;
+    width: 60vmin;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    
+    display: flex;
+   
+    
+}
+.box{
+    height : 15vmin;
+    width: 15vmin;
+     border-radius: 2rem;
+     border: none;
+     background-color: #fff;
+     box-shadow: 0 0 1rem #000;
+     font-size: 8vmin;
+     font-weight: bold;
+        color: #a30606;
+        cursor: pointer;
+}
+#reset{
+    height: 5vmin;
+    width: 20vmin;
+    border-radius: 2rem;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 1rem #000;
+    font-size: 3vmin;
+    font-weight: bold;
+    color: #a30606;
+    cursor: pointer;
+}
+#newbtn{
+    height: 5vmin;
+    width: 20vmin;
+    border-radius: 2rem;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 1rem #000;
+    font-size: 3vmin;
+    font-weight: bold;
+    color: #a30606;
+    cursor: pointer;
+}
+.msg-container {
+    animation: hoverUp 0.7s ease;
+    max-width: 90vw;
+    margin: 2vmin auto;
+    padding: 2vmin 4vmin;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.3);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.msg {
+    color: antiquewhite;
+    font-size: 5vmin;
+    font-weight: bold;
+    text-align: center;
+    word-break: break-word;
+}
+
+@keyframes hoverUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.hide {
+    display: none;
+}
