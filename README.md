@@ -67,8 +67,7 @@ Sound effects and animations
 Improved mobile responsiveness
 
 👩‍💻 Author
-Archismita Das
-Aspiring Frontend Developer
+**Archismita Das**
 
 📄 License
 This project is intended for educational and learning purposes and is open for use and modification.
